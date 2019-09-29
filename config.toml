@@ -1,3 +1,5 @@
+publishDir = "docs"
+
 baseURL = "https://agalitsyn.github.io/resume/"
 
 # To check prod build uncomment:
