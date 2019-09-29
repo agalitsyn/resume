@@ -1,0 +1,264 @@
+baseURL = "https://agalitsyn.github.io/resume/"
+
+# To check prod build uncomment:
+# baseURL = "http://localhost:8080/"
+
+title = "Anton Galitsyn CV"
+languageCode = "en-us"
+
+theme = "hugo-orbit-theme"
+
+googleAnalytics = "UA-XXXXXXX-Y"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+# Meta
+    description = "Anton Galitsyn CV"
+    author = "Anton Galitsyn"
+
+# Theme styles
+    styles = "styles-6.css"
+
+# Sidebar sections
+    # Profile section
+    [params.profile]
+        name = "Anton Galitsyn"
+        tagline = "Software Developer"
+        avatar = "profile.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto:anton.galitsyn@gmail.com"
+        title = "anton.galitsyn"
+
+        # [[params.contact.list]]
+        # class = "phone"
+        # icon = "fa-phone"
+        # url = "tel:+79133867287"
+        # title = "+79133867287"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//agalitsyn.github.io"
+        title = "agalitsyn.github.io"
+
+        [[params.contact.list]]
+        class = "telegram"
+        icon = "fa-paper-plane"
+        url = "//t.me/agalitsyn"
+        title = "agalitsyn"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/anton-galitsyn-a31925179"
+        title = "anton-galitsyn"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/agalitsyn"
+        title = "github.com/agalitsyn"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/anton_galitsyn"
+        title = "@anton_galitsyn"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Engineer"
+        college = "Siberian State University of Telecommunications and Information Sciences"
+        dates = "2006 - 2011"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Russian"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+    # Interests section
+    [params.interests]
+        enable = false
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = ""
+
+# Main body sections
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = """I am passionate about creating software products, which can improve every-day
+        life of customers or developers.
+        I always tend to be a diligent person, concentrate upon an objectives and work out it properly.
+        It’s important for me to have self-possession and to be laid-back and modest person for team-members.
+        """
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Senior software developer"
+        dates = "2018 - Present"
+        company = "Positive Technologies, Threat intelligence team https://www.ptsecurity.com"
+        details = """Product includes: observable entities, data enrichment,
+        threat data feeds, reports, search, API, etc.
+        I was involved in achitecture and development of several subsystems.
+        Also I maintain CI and deployment.
+        Tech stack: Go, python, docker, ansible, vmware, gitlab-ci.
+        """
+
+        [[params.jobs.list]]
+        position = "Senior software developer"
+        dates = "2017 - 2018"
+        company = "Tinkoff, Invest team https://tinkoff.ru/invest"
+        details = """Participated in development of market-data service for invest platform.
+        This service has SOA architecture, one part of it should fetch
+        data from different exchanges, parse it and send to kafka, then aggregators depuplicate messages and
+        and store in unified format in storage, all data is accessible by API.
+        Also I did CI/CD, deploy, monitoring, logging parts.
+        Tech stack: Go, kafka, postgres, docker, rancher, teamcity.
+        """
+
+        [[params.jobs.list]]
+        position = "Senior software developer"
+        dates = "2016 - 2017"
+        company = "Gravitational, Applications team https://gravitational.com"
+        details = """Worked on several applications, which runs on
+        [gravitational/gravity](https://github.com/gravitational/gravity) platform.
+        Basically all tasks was some kind of Go development using kubernetes resoures and APIs.
+        Also I worked with
+        [sorintlab/stolon](https://github.com/sorintlab/stolon) and
+        [helm/helm](https://github.com/helm/helm/pull/1766).
+        Tech stack: Go, kubernetes, terraform, prometheus, grafana, jenkins and many custom things like
+        [gravitational/planet](http://github.com/gravitational/planet).
+        """
+
+        [[params.jobs.list]]
+        position = "Software developer"
+        dates = "2014 - 2016"
+        company = "2GIS, Infrastructure and operation team https://2gis.ru"
+        details = """At first year I worked on integration of [openstack](http://openstack.org) as private cloud solution for company.
+        I maintained several custom plugins and "ready to go" templates for openstack orchestration
+        ([heat](https://github.com/openstack/heat)),
+        also actively worked with compute ([nova](https://github.com/openstack/nova)),
+        DNS ([designate](https://github.com/openstack/designate))
+        and openstack deployment ([openstack-ansible](https://github.com/openstack/openstack-ansible)).
+        Also I did tech support for developers, consulting on how to use openstack.
+        Last year I was involved into researches on container infrastructure, I worked with docker, CoreOS, deis, etc.
+        Tech stack: python, ansible, gitlab-ci and last year Go.
+        """
+
+        [[params.jobs.list]]
+        position = "Software developer"
+        dates = "2014 - 2014"
+        company = "Parallels, Shared hostting automation team http://www.odin.com/ru/products/premium/"
+        details = """This is 10 y.o. project with SOA architecture, old core was in C++, new in Java, cores communicated
+        by CORBA.
+        I worked on extension - dispatcher component: service written in PHP (Symfony 2 and Doctrine)
+        with multiple integration points: REST, CLI, RPC. Main goal was infrastructure management, upgrade and
+        health monitoring.
+        So, some part of my tasks still has some PHP for REST APIs, but second part was development for linux
+        using bash and python.
+        Tech stack: LAMP, python, bash.
+        """
+
+        [[params.jobs.list]]
+        position = "Junior software developer"
+        dates = "2013 - 2014"
+        company = "Parallels, Web Presence Builder team http://www.odin.com/cz/products/web-presence-builder/"
+        details = """I worked on interactive website builder. Project was created in 2004 and consists of legacy codebase
+        with layered architecture. Generally it was SPA web app which communicates with backend using REST API.
+        I participated in release WPB 11.6, and following 8 month worked on WPB 12,
+        which was never released, because project was closed by management.
+        Tech stack: LAMP on backend, JS on frontend.
+        """
+
+        [[params.jobs.list]]
+        position = "Web developer"
+        dates = "2011 - 2013"
+        company = "i20, Web Team https://i20.biz"
+        details = """Outsourcing company.
+        I was involved in building webistes as a fullstack developer.
+        Released several tv channel websites, restaurants,
+        cultural & educational media website, corporate website.
+        Tech stack: LAMP on backend, JS on frontend.
+        """
+
+    # Projects section
+    [params.projects]
+        enable = false
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "Hugrid"
+        url = "https://github.com/aerohub/hugrid"
+        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Go"
+
+        [[params.skills.list]]
+        skill = "Python"
+
+        [[params.skills.list]]
+        skill = "Linux system administration, bash scripting"
+
+        [[params.skills.list]]
+        skill = "Configuration management systems, deployment orchestration tools, public clouds, VMs, containers, kubernetes"
+
+        [[params.skills.list]]
+        skill = "Monitoring and alerting, on-call, incident management"
+
+        [[params.skills.list]]
+        skill = "CI/CD pipelines, build systems, test automation"
+
+        [[params.skills.list]]
+        skill = "Management of release process for small teams"
+
+        [[params.skills.list]]
+        skill = "Training software engineers"
+
+        [[params.skills.list]]
+        skill = "Basic HTML & CSS, JS frameworks, bulding internal UIs"
+
+    # Footer section
+    [params.footer]
+        copyright = "Anton Galitsyn"
