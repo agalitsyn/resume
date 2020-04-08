@@ -131,12 +131,13 @@ disable404 = true
         [[params.jobs.list]]
         position = "Senior software developer"
         dates = "2018 - Present"
-        company = "Positive Technologies, Threat intelligence team https://www.ptsecurity.com"
+        company = "Positive Technologies, Cybersecurity Intelligence team https://www.ptsecurity.com/ru-ru/products/cybersecurity-intelligence/"
         details = """Product includes: observable entities, data enrichment,
-        threat data feeds, reports, search, API, etc.
+        indicator correlations, threat data feeds, reports, search, API, auth,
+        integratons with other security software like Trendmicro, VirusTotal and etc.
         I was involved in achitecture and development of several subsystems.
-        Also I maintain CI and deployment.
-        Tech stack: Go, python, docker, ansible, vmware, gitlab-ci.
+        Also I worked on CI and deployment a lot, before infrastructure engineers was hired.
+        Tech stack: Go, python, docker, ansible, gitlab-ci.
         """
 
         [[params.jobs.list]]
@@ -146,7 +147,7 @@ disable404 = true
         details = """Participated in development of market-data service for invest platform.
         This service has SOA architecture, one part of it should fetch
         data from different exchanges, parse it and send to kafka, then aggregators depuplicate messages and
-        and store in unified format in storage, all data is accessible by API.
+        and store in unified format in storage, then all data is accessible using REST API.
         Also I did CI/CD, deploy, monitoring, logging parts.
         Tech stack: Go, kafka, postgres, docker, rancher, teamcity.
         """
@@ -169,10 +170,11 @@ disable404 = true
         position = "Software developer"
         dates = "2014 - 2016"
         company = "2GIS, Infrastructure and operation team https://2gis.ru"
-        details = """At first year I worked on integration of [openstack](http://openstack.org) as private cloud solution for company.
+        details = """At first year I worked on integration of [openstack](http://openstack.org)
+        as a private cloud solution for whole company.
         I maintained several custom plugins and "ready to go" templates for openstack orchestration
         ([heat](https://github.com/openstack/heat)),
-        also actively worked with compute ([nova](https://github.com/openstack/nova)),
+        also I actively worked on compute ([nova](https://github.com/openstack/nova)),
         DNS ([designate](https://github.com/openstack/designate))
         and openstack deployment ([openstack-ansible](https://github.com/openstack/openstack-ansible)).
         Also I did tech support for developers, consulting on how to use openstack.
@@ -184,8 +186,8 @@ disable404 = true
         position = "Software developer"
         dates = "2014 - 2014"
         company = "Parallels, Shared hostting automation team http://www.odin.com/ru/products/premium/"
-        details = """This is 10 y.o. project with SOA architecture, old core was in C++, new in Java, cores communicated
-        by CORBA.
+        details = """This is 10 y.o. project with SOA architecture, old core was in C++, new in Java, cores
+        communicates using CORBA.
         I worked on extension - dispatcher component: service written in PHP (Symfony 2 and Doctrine)
         with multiple integration points: REST, CLI, RPC. Main goal was infrastructure management, upgrade and
         health monitoring.
@@ -200,7 +202,7 @@ disable404 = true
         company = "Parallels, Web Presence Builder team http://www.odin.com/cz/products/web-presence-builder/"
         details = """I worked on interactive website builder. Project was created in 2004 and consists of legacy codebase
         with layered architecture. Generally it was SPA web app which communicates with backend using REST API.
-        I participated in release WPB 11.6, and following 8 month worked on WPB 12,
+        I participated in release WPB 11.6, and then next 8 month worked on WPB 12,
         which was never released, because project was closed by management.
         Tech stack: LAMP on backend, JS on frontend.
         """
@@ -211,7 +213,7 @@ disable404 = true
         company = "i20, Web Team https://i20.biz"
         details = """Outsourcing company.
         I was involved in building webistes as a fullstack developer.
-        Released several tv channel websites, restaurants,
+        Released several TV-channels websites, restaurants,
         cultural & educational media website, corporate website.
         Tech stack: LAMP on backend, JS on frontend.
         """
@@ -244,10 +246,10 @@ disable404 = true
         skill = "Linux system administration, bash scripting"
 
         [[params.skills.list]]
-        skill = "Configuration management systems, deployment orchestration tools, public clouds, VMs, containers, kubernetes"
+        skill = "Configuration management systems, deployment orchestration tools, public clouds, VMs, containers"
 
         [[params.skills.list]]
-        skill = "Monitoring and alerting, on-call, incident management"
+        skill = "Monitoring and alerting"
 
         [[params.skills.list]]
         skill = "CI/CD pipelines, build systems, test automation"
