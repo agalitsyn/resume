@@ -169,7 +169,7 @@ disable404 = true
         [[params.jobs.list]]
         position = "Software developer"
         dates = "2014 - 2016"
-        company = "2GIS, Infrastructure and operation team https://2gis.ru"
+        company = "2GIS, Infrastructure and operations team https://2gis.ru"
         details = """At first year I worked on integration of [openstack](http://openstack.org)
         as a private cloud solution for whole company.
         I maintained several custom plugins and "ready to go" templates for openstack orchestration
