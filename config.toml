@@ -185,7 +185,7 @@ disable404 = true
         [[params.jobs.list]]
         position = "Software developer"
         dates = "2014 - 2014"
-        company = "Parallels, Shared hostting automation team http://www.odin.com/ru/products/premium/"
+        company = "Parallels, Shared hosting automation team http://www.odin.com/ru/products/premium/"
         details = """This is 10 y.o. project with SOA architecture, old core was in C++, new in Java, cores
         communicates using CORBA.
         I worked on extension - dispatcher component: service written in PHP (Symfony 2 and Doctrine)
