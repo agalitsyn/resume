@@ -8,6 +8,6 @@ build:
 dev:
 	hugo server -w
 
-.PHONY: start
-start:
+.PHONY: preview
+preview:
 	python3 -m http.server 8080 --bind localhost --directory $(BUILD_DIR)

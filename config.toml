@@ -93,12 +93,12 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "Russian"
-        level = "Native"
-
-        [[params.language.list]]
         language = "English"
         level = "Professional"
+
+        [[params.language.list]]
+        language = "Russian"
+        level = "Native"
 
     # Interests section
     [params.interests]
@@ -130,23 +130,32 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Senior software developer"
-        dates = "2018 - Present"
+        dates = "2021 - Present"
+        company = "AliExpress Russia, Seller Center team"
+        details = """Tech stack: Go, gRPC, k8s.
+        """
+
+        [[params.jobs.list]]
+        position = "Senior software developer"
+        dates = "2018 - end 2020"
         company = "Positive Technologies, Cybersecurity Intelligence team https://www.ptsecurity.com/ru-ru/products/cybersecurity-intelligence/"
-        details = """Product includes: observable entities, data enrichment,
-        indicator correlations, threat data feeds, reports, search, API, auth,
-        integratons with other security software like Trendmicro, VirusTotal and etc.
-        I was involved in achitecture and development of several subsystems.
-        Also I worked on CI and deployment a lot, before infrastructure engineers was hired.
-        Tech stack: Go, python, docker, ansible, gitlab-ci.
+        details = """This product is about:
+        * Analytics system for security reports with data enrichment and search.
+        * Aggregations, indicator correlations, output feeds.
+        * Generic API for 3rd-party software.
+        * Integration with security software of other vendors like Trendmicro, VirusTotal, etc.
+        I did achitecture and development of several subsystems: Auth, API, artifact analyzer gateway, storage system, data migrations.
+        Also I did CI and deployment a lot, before infrastructure engineers was hired.
+        Tech stack: Go, docker, ansible, gitlab-ci, python.
         """
 
         [[params.jobs.list]]
         position = "Senior software developer"
         dates = "2017 - 2018"
         company = "Tinkoff, Invest team https://tinkoff.ru/invest"
-        details = """Participated in development of market-data service for invest platform.
-        This service has SOA architecture, one part of it should fetch
-        data from different exchanges, parse it and send to kafka, then aggregators depuplicate messages and
+        details = """Senior engineer of Market-data service for invest platform.
+        This service uses streaming architecture, one part of it should fetch
+        data from different exchanges, parse it and send to Kafka, then aggregators depuplicate messages and
         and store in unified format in storage, then all data is accessible using REST API.
         Also I did CI/CD, deploy, monitoring, logging parts.
         Tech stack: Go, kafka, postgres, docker, rancher, teamcity.
@@ -158,10 +167,10 @@ disable404 = true
         company = "Gravitational, Applications team https://gravitational.com"
         details = """Worked on several applications, which runs on
         [gravitational/gravity](https://github.com/gravitational/gravity) platform.
-        Basically all tasks was some kind of Go development using kubernetes resoures and APIs.
-        Also I worked with
-        [sorintlab/stolon](https://github.com/sorintlab/stolon) and
-        [helm/helm](https://github.com/helm/helm/pull/1766).
+        Basically all apps was Go apps, which uses k8s resoures and APIs.
+        Also I worked with:
+        * [sorintlab/stolon](https://github.com/sorintlab/stolon) and
+        * [helm/helm](https://github.com/helm/helm/pull/1766).
         Tech stack: Go, kubernetes, terraform, prometheus, grafana, jenkins and many custom things like
         [gravitational/planet](http://github.com/gravitational/planet).
         """
@@ -240,19 +249,19 @@ disable404 = true
         skill = "Go"
 
         [[params.skills.list]]
-        skill = "Python"
-
-        [[params.skills.list]]
-        skill = "Linux system administration, bash scripting"
-
-        [[params.skills.list]]
-        skill = "Configuration management systems, deployment orchestration tools, public clouds, VMs, containers"
+        skill = "Test automation"
 
         [[params.skills.list]]
         skill = "Monitoring and alerting"
 
         [[params.skills.list]]
-        skill = "CI/CD pipelines, build systems, test automation"
+        skill = "CI/CD pipelines"
+
+        [[params.skills.list]]
+        skill = "Linux system administration"
+
+        [[params.skills.list]]
+        skill = "Configuration management systems, deployment orchestration tools, containers"
 
         [[params.skills.list]]
         skill = "Management of release process for small teams"

@@ -4,7 +4,7 @@
  <html lang="en"> 
 
 <head>
-	<meta name="generator" content="Hugo 0.58.3" />
+	<meta name="generator" content="Hugo 0.80.0" />
         <title></title>
     
     <meta charset="utf-8">
@@ -91,9 +91,9 @@ if (!doNotTrack) {
                 <h2 class="container-block-title">Languages</h2>
                 <ul class="list-unstyled interests-list">
 				
-                    <li>Russian <span class="lang-desc">(Native)</span></li>
-				
                     <li>English <span class="lang-desc">(Professional)</span></li>
+				
+                    <li>Russian <span class="lang-desc">(Native)</span></li>
 				
                 </ul>
             </div>
@@ -112,9 +112,9 @@ if (!doNotTrack) {
                 <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
                 <div class="summary">
                     <p>I am passionate about creating software products, which can improve every-day
-        life of customers or developers.
-        I always tend to be a diligent person, concentrate upon an objectives and work out it properly.
-        It’s important for me to have self-possession and to be laid-back and modest person for team-members.</p>
+life of customers or developers.
+I always tend to be a diligent person, concentrate upon an objectives and work out it properly.
+It’s important for me to have self-possession and to be laid-back and modest person for team-members.</p>
                 </div>
             </section>
 
@@ -129,17 +129,32 @@ if (!doNotTrack) {
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Senior software developer</h3>
-                            <div class="time">2018 - Present</div>
+                            <div class="time">2021 - Present</div>
+                        </div>
+                        <div class="company">AliExpress Russia, Seller Center team</div>
+                    </div>
+                    <div class="details">
+                        <p>Tech stack: Go, gRPC, k8s.</p>
+                    </div>
+                </div>
+				
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Senior software developer</h3>
+                            <div class="time">2018 - end 2020</div>
                         </div>
                         <div class="company">Positive Technologies, Cybersecurity Intelligence team https://www.ptsecurity.com/ru-ru/products/cybersecurity-intelligence/</div>
                     </div>
                     <div class="details">
-                        <p>Product includes: observable entities, data enrichment,
-        indicator correlations, threat data feeds, reports, search, API, auth,
-        integratons with other security software like Trendmicro, VirusTotal and etc.
-        I was involved in achitecture and development of several subsystems.
-        Also I worked on CI and deployment a lot, before infrastructure engineers was hired.
-        Tech stack: Go, python, docker, ansible, gitlab-ci.</p>
+                        <p>This product is about:
+* Analytics system for security reports with data enrichment and search.
+* Aggregations, indicator correlations, output feeds.
+* Generic API for 3rd-party software.
+* Integration with security software of other vendors like Trendmicro, VirusTotal, etc.
+I did achitecture and development of several subsystems: Auth, API, artifact analyzer gateway, storage system, data migrations.
+Also I did CI and deployment a lot, before infrastructure engineers was hired.
+Tech stack: Go, docker, ansible, gitlab-ci, python.</p>
                     </div>
                 </div>
 				
@@ -152,12 +167,12 @@ if (!doNotTrack) {
                         <div class="company">Tinkoff, Invest team https://tinkoff.ru/invest</div>
                     </div>
                     <div class="details">
-                        <p>Participated in development of market-data service for invest platform.
-        This service has SOA architecture, one part of it should fetch
-        data from different exchanges, parse it and send to kafka, then aggregators depuplicate messages and
-        and store in unified format in storage, then all data is accessible using REST API.
-        Also I did CI/CD, deploy, monitoring, logging parts.
-        Tech stack: Go, kafka, postgres, docker, rancher, teamcity.</p>
+                        <p>Senior engineer of Market-data service for invest platform.
+This service uses streaming architecture, one part of it should fetch
+data from different exchanges, parse it and send to Kafka, then aggregators depuplicate messages and
+and store in unified format in storage, then all data is accessible using REST API.
+Also I did CI/CD, deploy, monitoring, logging parts.
+Tech stack: Go, kafka, postgres, docker, rancher, teamcity.</p>
                     </div>
                 </div>
 				
@@ -171,13 +186,13 @@ if (!doNotTrack) {
                     </div>
                     <div class="details">
                         <p>Worked on several applications, which runs on
-        <a href="https://github.com/gravitational/gravity">gravitational/gravity</a> platform.
-        Basically all tasks was some kind of Go development using kubernetes resoures and APIs.
-        Also I worked with
-        <a href="https://github.com/sorintlab/stolon">sorintlab/stolon</a> and
-        <a href="https://github.com/helm/helm/pull/1766">helm/helm</a>.
-        Tech stack: Go, kubernetes, terraform, prometheus, grafana, jenkins and many custom things like
-        <a href="http://github.com/gravitational/planet">gravitational/planet</a>.</p>
+<a href="https://github.com/gravitational/gravity">gravitational/gravity</a> platform.
+Basically all apps was Go apps, which uses k8s resoures and APIs.
+Also I worked with:
+* <a href="https://github.com/sorintlab/stolon">sorintlab/stolon</a> and
+* <a href="https://github.com/helm/helm/pull/1766">helm/helm</a>.
+Tech stack: Go, kubernetes, terraform, prometheus, grafana, jenkins and many custom things like
+<a href="http://github.com/gravitational/planet">gravitational/planet</a>.</p>
                     </div>
                 </div>
 				
@@ -191,15 +206,15 @@ if (!doNotTrack) {
                     </div>
                     <div class="details">
                         <p>At first year I worked on integration of <a href="http://openstack.org">openstack</a>
-        as a private cloud solution for whole company.
-        I maintained several custom plugins and &ldquo;ready to go&rdquo; templates for openstack orchestration
-        (<a href="https://github.com/openstack/heat">heat</a>),
-        also I actively worked on compute (<a href="https://github.com/openstack/nova">nova</a>),
-        DNS (<a href="https://github.com/openstack/designate">designate</a>)
-        and openstack deployment (<a href="https://github.com/openstack/openstack-ansible">openstack-ansible</a>).
-        Also I did tech support for developers, consulting on how to use openstack.
-        Last year I was involved into researches on container infrastructure, I worked with docker, CoreOS, deis, etc.
-        Tech stack: python, ansible, gitlab-ci and last year Go.</p>
+as a private cloud solution for whole company.
+I maintained several custom plugins and &ldquo;ready to go&rdquo; templates for openstack orchestration
+(<a href="https://github.com/openstack/heat">heat</a>),
+also I actively worked on compute (<a href="https://github.com/openstack/nova">nova</a>),
+DNS (<a href="https://github.com/openstack/designate">designate</a>)
+and openstack deployment (<a href="https://github.com/openstack/openstack-ansible">openstack-ansible</a>).
+Also I did tech support for developers, consulting on how to use openstack.
+Last year I was involved into researches on container infrastructure, I worked with docker, CoreOS, deis, etc.
+Tech stack: python, ansible, gitlab-ci and last year Go.</p>
                     </div>
                 </div>
 				
@@ -213,13 +228,13 @@ if (!doNotTrack) {
                     </div>
                     <div class="details">
                         <p>This is 10 y.o. project with SOA architecture, old core was in C++, new in Java, cores
-        communicates using CORBA.
-        I worked on extension - dispatcher component: service written in PHP (Symfony 2 and Doctrine)
-        with multiple integration points: REST, CLI, RPC. Main goal was infrastructure management, upgrade and
-        health monitoring.
-        So, some part of my tasks still has some PHP for REST APIs, but second part was development for linux
-        using bash and python.
-        Tech stack: LAMP, python, bash.</p>
+communicates using CORBA.
+I worked on extension - dispatcher component: service written in PHP (Symfony 2 and Doctrine)
+with multiple integration points: REST, CLI, RPC. Main goal was infrastructure management, upgrade and
+health monitoring.
+So, some part of my tasks still has some PHP for REST APIs, but second part was development for linux
+using bash and python.
+Tech stack: LAMP, python, bash.</p>
                     </div>
                 </div>
 				
@@ -233,10 +248,10 @@ if (!doNotTrack) {
                     </div>
                     <div class="details">
                         <p>I worked on interactive website builder. Project was created in 2004 and consists of legacy codebase
-        with layered architecture. Generally it was SPA web app which communicates with backend using REST API.
-        I participated in release WPB 11.6, and then next 8 month worked on WPB 12,
-        which was never released, because project was closed by management.
-        Tech stack: LAMP on backend, JS on frontend.</p>
+with layered architecture. Generally it was SPA web app which communicates with backend using REST API.
+I participated in release WPB 11.6, and then next 8 month worked on WPB 12,
+which was never released, because project was closed by management.
+Tech stack: LAMP on backend, JS on frontend.</p>
                     </div>
                 </div>
 				
@@ -250,10 +265,10 @@ if (!doNotTrack) {
                     </div>
                     <div class="details">
                         <p>Outsourcing company.
-        I was involved in building webistes as a fullstack developer.
-        Released several TV-channels websites, restaurants,
-        cultural &amp; educational media website, corporate website.
-        Tech stack: LAMP on backend, JS on frontend.</p>
+I was involved in building webistes as a fullstack developer.
+Released several TV-channels websites, restaurants,
+cultural &amp; educational media website, corporate website.
+Tech stack: LAMP on backend, JS on frontend.</p>
                     </div>
                 </div>
 				
@@ -268,45 +283,79 @@ if (!doNotTrack) {
 	            <section class="skills-section section">
                 <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
                 <div class="skillset">
-                    <ul>
-                        
-                            <div class="item">
-                                <li>Go</li>
+				
+                    <div class="item">
+                        <h3 class="level-title">Go</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="">
                             </div>
-                        
-                            <div class="item">
-                                <li>Python</li>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">Test automation</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="">
                             </div>
-                        
-                            <div class="item">
-                                <li>Linux system administration, bash scripting</li>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">Monitoring and alerting</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="">
                             </div>
-                        
-                            <div class="item">
-                                <li>Configuration management systems, deployment orchestration tools, public clouds, VMs, containers</li>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">CI/CD pipelines</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="">
                             </div>
-                        
-                            <div class="item">
-                                <li>Monitoring and alerting</li>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">Linux system administration</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="">
                             </div>
-                        
-                            <div class="item">
-                                <li>CI/CD pipelines, build systems, test automation</li>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">Configuration management systems, deployment orchestration tools, containers</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="">
                             </div>
-                        
-                            <div class="item">
-                                <li>Management of release process for small teams</li>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">Management of release process for small teams</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="">
                             </div>
-                        
-                            <div class="item">
-                                <li>Training software engineers</li>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">Training software engineers</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="">
                             </div>
-                        
-                            <div class="item">
-                                <li>Basic HTML &amp; CSS, JS frameworks, bulding internal UIs</li>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">Basic HTML &amp; CSS, JS frameworks, bulding internal UIs</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="">
                             </div>
-                        
-                    </ul>
+                        </div>
+                    </div>
+                
                 </div>
             </section>
 
@@ -319,7 +368,7 @@ if (!doNotTrack) {
         <div class="text-center">
                 
                 <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small><br>
-				<small class="copyright">2020 &copy; Anton Galitsyn</small>
+				<small class="copyright">2021 &copy; Anton Galitsyn</small>
         </div>
     </footer>
 
