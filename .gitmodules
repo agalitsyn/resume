@@ -1,0 +1,4 @@
+[submodule "themes/hugo-orbit-theme"]
+	path = themes/hugo-orbit-theme
+	url = git@github.com:agalitsyn/hugo-orbit-theme.git
+	branch = master

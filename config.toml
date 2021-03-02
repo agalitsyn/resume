@@ -131,100 +131,117 @@ disable404 = true
         [[params.jobs.list]]
         position = "Senior software developer"
         dates = "2021 - Present"
-        company = "AliExpress Russia, Seller Center team"
-        details = """Tech stack: Go, gRPC, k8s.
+        company = "AliExpress Russia"
+        product = "Seller center"
+        product_url = "//seller.aliexpress.ru"
+        stack = "Go, gRPC, k8s"
+        details = """
         """
 
         [[params.jobs.list]]
         position = "Senior software developer"
         dates = "2018 - end 2020"
-        company = "Positive Technologies, Cybersecurity Intelligence team https://www.ptsecurity.com/ru-ru/products/cybersecurity-intelligence/"
+        company = "Positive Technologies"
+        product = "Cybersecurity Intelligence"
+        product_url = "//ptsecurity.com/ru-ru/products/cybersecurity-intelligence"
+        stack = "Go, docker, ansible, gitlab-ci, python"
         details = """This product is about:
-        * Analytics system for security reports with data enrichment and search.
-        * Aggregations, indicator correlations, output feeds.
-        * Generic API for 3rd-party software.
-        * Integration with security software of other vendors like Trendmicro, VirusTotal, etc.
-        I did achitecture and development of several subsystems: Auth, API, artifact analyzer gateway, storage system, data migrations.
-        Also I did CI and deployment a lot, before infrastructure engineers was hired.
-        Tech stack: Go, docker, ansible, gitlab-ci, python.
+* Analytics system for security reports with data enrichment and search.
+* Aggregations, indicator correlations, output feeds.
+* Generic API for 3rd-party software.
+* Integration with security software of other vendors like Trendmicro, VirusTotal, etc.
+
+I did achitecture and development of several subsystems: Auth, API, artifact analyzer gateway, storage system, data migrations.
+Also I did CI and deployment a lot, before infrastructure engineers was hired.
         """
 
         [[params.jobs.list]]
         position = "Senior software developer"
         dates = "2017 - 2018"
-        company = "Tinkoff, Invest team https://tinkoff.ru/invest"
+        company = "Tinkoff"
+        product = "Investment"
+        product_url = "//tinkoff.ru/invest"
+        stack = "Go, kafka, postgres, docker, rancher, teamcity"
         details = """Senior engineer of Market-data service for invest platform.
-        This service uses streaming architecture, one part of it should fetch
-        data from different exchanges, parse it and send to Kafka, then aggregators depuplicate messages and
-        and store in unified format in storage, then all data is accessible using REST API.
-        Also I did CI/CD, deploy, monitoring, logging parts.
-        Tech stack: Go, kafka, postgres, docker, rancher, teamcity.
+This service uses streaming architecture, one part of it should fetch
+data from different exchanges, parse it and send to Kafka, then aggregators depuplicate messages and
+and store in unified format in storage, then all data is accessible using REST API.
+Also I did CI/CD, deploy, monitoring, logging parts.
         """
 
         [[params.jobs.list]]
         position = "Senior software developer"
         dates = "2016 - 2017"
-        company = "Gravitational, Applications team https://gravitational.com"
+        company = "Gravitational"
+        product = "Gravity"
+        product_url = "//goteleport.com/gravity"
+        stack = "Go, kubernetes, terraform, prometheus, grafana, jenkins"
         details = """Worked on several applications, which runs on
-        [gravitational/gravity](https://github.com/gravitational/gravity) platform.
-        Basically all apps was Go apps, which uses k8s resoures and APIs.
-        Also I worked with:
-        * [sorintlab/stolon](https://github.com/sorintlab/stolon) and
-        * [helm/helm](https://github.com/helm/helm/pull/1766).
-        Tech stack: Go, kubernetes, terraform, prometheus, grafana, jenkins and many custom things like
-        [gravitational/planet](http://github.com/gravitational/planet).
+[gravitational/gravity](https://github.com/gravitational/gravity) platform.
+Basically all apps was Go apps, which uses k8s resoures and APIs.
+
+Also I worked with:
+* [sorintlab/stolon](https://github.com/sorintlab/stolon)
+* [helm/helm](https://github.com/helm/helm/pull/1766).
         """
 
         [[params.jobs.list]]
         position = "Software developer"
         dates = "2014 - 2016"
-        company = "2GIS, Infrastructure and operations team https://2gis.ru"
+        company = "2GIS"
+        product = "Infrastructure and operations"
+        product_url = "//2gis.ru"
+        stack = "python, ansible, gitlab-ci and last year Go"
         details = """At first year I worked on integration of [openstack](http://openstack.org)
-        as a private cloud solution for whole company.
-        I maintained several custom plugins and "ready to go" templates for openstack orchestration
-        ([heat](https://github.com/openstack/heat)),
-        also I actively worked on compute ([nova](https://github.com/openstack/nova)),
-        DNS ([designate](https://github.com/openstack/designate))
-        and openstack deployment ([openstack-ansible](https://github.com/openstack/openstack-ansible)).
-        Also I did tech support for developers, consulting on how to use openstack.
-        Last year I was involved into researches on container infrastructure, I worked with docker, CoreOS, deis, etc.
-        Tech stack: python, ansible, gitlab-ci and last year Go.
+as a private cloud solution for whole company.
+I maintained several custom plugins and "ready to go" templates for openstack orchestration
+([heat](https://github.com/openstack/heat)),
+also I actively worked on compute ([nova](https://github.com/openstack/nova)),
+DNS ([designate](https://github.com/openstack/designate))
+and openstack deployment ([openstack-ansible](https://github.com/openstack/openstack-ansible)).
+Also I did tech support for developers, consulting on how to use openstack.
+Last year I was involved into researches on container infrastructure, I worked with docker, CoreOS, deis, etc.
         """
 
         [[params.jobs.list]]
         position = "Software developer"
         dates = "2014 - 2014"
-        company = "Parallels, Shared hosting automation team http://www.odin.com/ru/products/premium/"
+        company = "Parallels"
+        product = "Shared hosting automation"
+        product_url = "//odin.com/ru/products/premium"
+        stack = "LAMP, python, bash"
         details = """This is 10 y.o. project with SOA architecture, old core was in C++, new in Java, cores
-        communicates using CORBA.
-        I worked on extension - dispatcher component: service written in PHP (Symfony 2 and Doctrine)
-        with multiple integration points: REST, CLI, RPC. Main goal was infrastructure management, upgrade and
-        health monitoring.
-        So, some part of my tasks still has some PHP for REST APIs, but second part was development for linux
-        using bash and python.
-        Tech stack: LAMP, python, bash.
+communicates using CORBA.
+I worked on extension - dispatcher component: service written in PHP (Symfony 2 and Doctrine)
+with multiple integration points: REST, CLI, RPC. Main goal was infrastructure management, upgrade and
+health monitoring.
+So, some part of my tasks still has some PHP for REST APIs, but second part was development for linux
+using bash and python.
         """
 
         [[params.jobs.list]]
         position = "Junior software developer"
         dates = "2013 - 2014"
-        company = "Parallels, Web Presence Builder team http://www.odin.com/cz/products/web-presence-builder/"
+        company = "Parallels"
+        product = "Web Presence Builder"
+        product_url = "//odin.com/cz/products/web-presence-builder"
+        stack = "LAMP on backend, JS on frontend"
         details = """I worked on interactive website builder. Project was created in 2004 and consists of legacy codebase
-        with layered architecture. Generally it was SPA web app which communicates with backend using REST API.
-        I participated in release WPB 11.6, and then next 8 month worked on WPB 12,
-        which was never released, because project was closed by management.
-        Tech stack: LAMP on backend, JS on frontend.
+with layered architecture. Generally it was SPA web app which communicates with backend using REST API.
+I participated in release WPB 11.6, and then next 8 month worked on WPB 12,
+which was never released, because project was closed by management.
         """
 
         [[params.jobs.list]]
         position = "Web developer"
         dates = "2011 - 2013"
-        company = "i20, Web Team https://i20.biz"
-        details = """Outsourcing company.
-        I was involved in building webistes as a fullstack developer.
-        Released several TV-channels websites, restaurants,
-        cultural & educational media website, corporate website.
-        Tech stack: LAMP on backend, JS on frontend.
+        company = "i20"
+        product = ""
+        product_url = "//drupaljedi.com"
+        stack = "Drupal, PHP, JS, JQuery"
+        details = """I was involved in building webistes as a fullstack developer.
+Released several TV-channels websites, restaurants,
+cultural & educational media website, corporate website.
         """
 
     # Projects section
