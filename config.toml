@@ -28,7 +28,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Anton Galitsyn"
-        tagline = "Software Developer"
+        tagline = "Senior Software Developer"
         avatar = "profile.jpg"
 
     # Contact section
@@ -115,17 +115,22 @@ disable404 = true
     [params.summary]
         enable = true
         icon = "fa-user"
-        title = "Career Profile"
-        summary = """Last 5 years my fulltime job was related to Go programming,
-both on product side (developing various services) and techinical side (tools and libraries).
+        title = "Introduction"
+        summary = """ Hello, I'm Anton! I have more than 10 years of experience with web technologies in various business domains.
+
+Since 2016 my fulltime job is related to Go programming,
+both on product side (developing services) and techinical side (tools and libraries).
+
 I perform tasks of diverse level of complexity, which require detailed analysis, selection of solutions, in other words
-I can transform amorphous requirements from business into a working system. Often I act as a techlead for some feature.
+I can transform amorphous requirements from business into a working system. Often I act as a feature techlead.
 Also I often addressed for help by others, sometimes acts as a mentor.
 
 Personally I'm passionate about creating software products, which can improve every-day life of customers or developers.
 I always tend to be a diligent person, concentrate upon an objectives and work out it properly.
 It’s important for me to have self-possession and to be laid-back and modest person for team-members.
-        """
+
+My current timezone is GMT+7, Novosibirsk, Russia.
+"""
 
     # Experiences section
     [params.experiences]
@@ -135,11 +140,11 @@ It’s important for me to have self-possession and to be laid-back and modest p
 
         [[params.jobs.list]]
         position = "Senior software developer"
-        dates = "2021 - Present"
+        dates = "Dec 2020 - Present"
         company = "AliExpress Russia"
         product = "Seller center"
         product_url = "//seller.aliexpress.ru"
-        stack = "Go, gRPC, k8s, kafka, postgres, redis, s3"
+        stack = "Go, gRPC, Docker, Kubernetes, Kafka, Postgres, Redis, S3"
         details = """Seller Center is a space where sellers can manage their products, logistics, stats, etc.
 Generally, all tasks is about building various HTTP + gRPC backends in k8s environment, some of them includes:
 * Using gRPC-Gateway
@@ -154,11 +159,11 @@ Personally I like to use one-repository approach for services with multiple apps
 
         [[params.jobs.list]]
         position = "Senior software developer"
-        dates = "2018 - end 2020"
+        dates = "2018 - Dec 2020"
         company = "Positive Technologies"
         product = "Cybersecurity Intelligence"
         product_url = "//ptsecurity.com/ru-ru/products/cybersecurity-intelligence"
-        stack = "Go, docker, ansible, gitlab-ci, python"
+        stack = "Go, Docker, Ansible, Gitlab-CI, Python"
         details = """This product is about:
 * Analytics system for security reports with data enrichment and search.
 * Aggregations, indicator correlations, output feeds.
@@ -175,7 +180,7 @@ Also I did CI and deployment a lot, before infrastructure engineers was hired.
         company = "Tinkoff"
         product = "Investment"
         product_url = "//tinkoff.ru/invest"
-        stack = "Go, kafka, postgres, docker, rancher, teamcity"
+        stack = "Go, Kafka, Postgres, Docker, Teamcity"
         details = """Senior engineer of Market-data service for invest platform.
 This service uses streaming architecture, one part of it should fetch
 data from different exchanges, parse it and send to Kafka, then aggregators depuplicate messages and
@@ -184,28 +189,12 @@ Also I did CI/CD, deploy, monitoring, logging parts.
         """
 
         [[params.jobs.list]]
-        position = "Senior software developer"
-        dates = "2016 - 2017"
-        company = "Gravitational"
-        product = "Gravity"
-        product_url = "//goteleport.com/gravity"
-        stack = "Go, kubernetes, terraform, prometheus, grafana, jenkins"
-        details = """Worked on several applications, which runs on
-[gravitational/gravity](https://github.com/gravitational/gravity) platform.
-Basically all apps was Go apps, which uses k8s resoures and APIs.
-
-Also I worked with:
-* [sorintlab/stolon](https://github.com/sorintlab/stolon)
-* [helm/helm](https://github.com/helm/helm/pull/1766).
-        """
-
-        [[params.jobs.list]]
         position = "Software developer"
-        dates = "2014 - 2016"
+        dates = "2014 - 2017"
         company = "2GIS"
         product = "Infrastructure and operations"
         product_url = "//2gis.ru"
-        stack = "python, ansible, gitlab-ci and last year Go"
+        stack = "Python, Ansible, Gitlab-CI, Go, Docker, Kubernetes"
         details = """At first year I worked on integration of [openstack](http://openstack.org)
 as a private cloud solution for whole company.
 I maintained several custom plugins and "ready to go" templates for openstack orchestration
@@ -214,7 +203,8 @@ also I actively worked on compute ([nova](https://github.com/openstack/nova)),
 DNS ([designate](https://github.com/openstack/designate))
 and openstack deployment ([openstack-ansible](https://github.com/openstack/openstack-ansible)).
 Also I did tech support for developers, consulting on how to use openstack.
-Last year I was involved into researches on container infrastructure, I worked with docker, CoreOS, deis, etc.
+
+Then I was involved into building internal PaaS, I worked with Docker, CoreOS, Deis, Kubernetes, etc.
         """
 
         [[params.jobs.list]]
@@ -223,7 +213,7 @@ Last year I was involved into researches on container infrastructure, I worked w
         company = "Parallels"
         product = "Shared hosting automation"
         product_url = "//odin.com/ru/products/premium"
-        stack = "LAMP, python, bash"
+        stack = "LAMP, Python, Bash"
         details = """This is 10 y.o. project with SOA architecture, old core was in C++, new in Java, cores
 communicates using CORBA.
 I worked on extension - dispatcher component: service written in PHP (Symfony 2 and Doctrine)
@@ -234,7 +224,7 @@ using bash and python.
         """
 
         [[params.jobs.list]]
-        position = "Junior software developer"
+        position = "Software developer"
         dates = "2013 - 2014"
         company = "Parallels"
         product = "Web Presence Builder"
@@ -247,7 +237,7 @@ which was never released, because project was closed by management.
         """
 
         [[params.jobs.list]]
-        position = "Web developer"
+        position = "Junior software developer"
         dates = "2011 - 2013"
         company = "i20"
         product = ""
@@ -261,14 +251,25 @@ cultural & educational media website, corporate website.
     # Projects section
     [params.projects]
         enable = false
-        icon = "fa-archive"
-        title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        icon = "fa-file"
+        title = "Contract work"
+        intro = ""
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "Gravitational"
+        url = "//goteleport.com/gravity"
+        dates = "2016"
+        stack = "Go, kubernetes, terraform, prometheus, grafana, jenkins"
+        details = """Worked on several applications, which runs on
+[gravitational/gravity](https://github.com/gravitational/gravity) platform.
+Basically all apps was Go apps, which uses k8s resoures and APIs.
+* [pithos](https://github.com/gravitational/pithos-app)
+* [stolon](https://github.com/gravitational/stolon-app)
+* [logging](https://github.com/gravitational/logging-app)
+
+Also worked with open-source projects, like
+* [helm/helm](https://github.com/helm/helm/pull/1766)
+"""
 
     # Skills section
     [params.skills]
@@ -280,28 +281,62 @@ cultural & educational media website, corporate website.
         skill = "Go"
 
         [[params.skills.list]]
-        skill = "Test automation"
+        skill = "Python"
 
         [[params.skills.list]]
-        skill = "Monitoring and alerting"
+        skill = "Test automation"
 
         [[params.skills.list]]
         skill = "CI/CD pipelines"
 
         [[params.skills.list]]
-        skill = "Linux system administration"
+        skill = "Linux, Ansible, Docker, Kubernetes"
 
         [[params.skills.list]]
-        skill = "Configuration management systems, deployment orchestration tools, containers"
+        skill = "Monitoring and alerting"
 
         [[params.skills.list]]
-        skill = "Management of release process for small teams"
+        skill = "HTML, CSS, JS, bulding admin websites using Vue or React"
+
+        [[params.skills.list]]
+        skill = "Management of development and release process for small teams"
 
         [[params.skills.list]]
         skill = "Training software engineers"
 
         [[params.skills.list]]
-        skill = "Basic HTML & CSS, JS frameworks, bulding internal UIs"
+        skill = "Public and internal tech talks"
+
+    # Publications section
+    [params.publications]
+        enable = true
+        icon = "fa-volume-up"
+        title = "Public talks"
+        intro = ""
+
+        [[params.publications.list]]
+        language = "RU"
+        date = "2018"
+        event = "Go Meetup"
+        title = "How to grab logs in k8s"
+        slides_url = "//github.com/agalitsyn/presentations/blob/master/2018-03-30%20go%20meetup/grab%20k8s%20logs.pdf"
+        video_url = ""
+
+        [[params.publications.list]]
+        language = "RU"
+        date = "2016"
+        event = "Codefest"
+        title = "Test automation infrastructure"
+        slides_url = "//github.com/agalitsyn/presentations/blob/master/2016-codefest-infrastructure-automation-at-2gis/export.pdf"
+        video_url = "//www.youtube.com/watch?v=fPSXDkMH3uY"
+
+        [[params.publications.list]]
+        language = "RU"
+        date = "2014"
+        event = "Tech talk"
+        title = "Tests is a developer tool"
+        slides_url = "//github.com/agalitsyn/presentations/blob/master/2014-introduction-to-testing/introduction-to-testing.pdf"
+        video_url = ""
 
     # Footer section
     [params.footer]
