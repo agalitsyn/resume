@@ -140,7 +140,7 @@ My current timezone is GMT+7, Novosibirsk, Russia.
 
         [[params.jobs.list]]
         position = "Senior software developer"
-        dates = "Dec 2020 - Present"
+        dates = "2021 - Present"
         company = "AliExpress Russia"
         product = "Seller center"
         product_url = "//seller.aliexpress.ru"
@@ -159,7 +159,7 @@ Personally I like to use one-repository approach for services with multiple apps
 
         [[params.jobs.list]]
         position = "Senior software developer"
-        dates = "2018 - Dec 2020"
+        dates = "2018 - 2021"
         company = "Positive Technologies"
         product = "Cybersecurity Intelligence"
         product_url = "//ptsecurity.com/ru-ru/products/cybersecurity-intelligence"
@@ -209,11 +209,11 @@ Then I was involved into building internal PaaS, I worked with Docker, CoreOS, D
 
         [[params.jobs.list]]
         position = "Software developer"
-        dates = "2014 - 2014"
+        dates = "2013 - 2014"
         company = "Parallels"
         product = "Shared hosting automation"
         product_url = "//odin.com/ru/products/premium"
-        stack = "LAMP, Python, Bash"
+        stack = "LAMP, JS, Bash, Python"
         details = """This is 10 y.o. project with SOA architecture, old core was in C++, new in Java, cores
 communicates using CORBA.
 I worked on extension - dispatcher component: service written in PHP (Symfony 2 and Doctrine)
@@ -221,19 +221,6 @@ with multiple integration points: REST, CLI, RPC. Main goal was infrastructure m
 health monitoring.
 So, some part of my tasks still has some PHP for REST APIs, but second part was development for linux
 using bash and python.
-        """
-
-        [[params.jobs.list]]
-        position = "Software developer"
-        dates = "2013 - 2014"
-        company = "Parallels"
-        product = "Web Presence Builder"
-        product_url = "//odin.com/cz/products/web-presence-builder"
-        stack = "LAMP on backend, JS on frontend"
-        details = """I worked on interactive website builder. Project was created in 2004 and consists of legacy codebase
-with layered architecture. Generally it was SPA web app which communicates with backend using REST API.
-I participated in release WPB 11.6, and then next 8 month worked on WPB 12,
-which was never released, because project was closed by management.
         """
 
         [[params.jobs.list]]
