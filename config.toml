@@ -129,8 +129,6 @@ What I do best:
 
 As a team member I tend to be quite diligent person, focusing on work objectives and proper delivery. I have thoughtful problem-solving skills and pragmatic and business-oriented approach.
 Also I think I'm quite easy to get along with and adapt well to new teams and workflows. I believe in empathetic communication and team work.
-
-My current timezone is GMT+7, Novosibirsk, Russia.
 """
 
     # Skills section
@@ -174,7 +172,16 @@ My current timezone is GMT+7, Novosibirsk, Russia.
 
         [[params.jobs.list]]
         position = "Senior software developer"
-        dates = "2021 - Present"
+        dates = "2022 - Present"
+        company = "Zenith Inc."
+        product = "Console"
+        product_url = "//github.com/zenithdb/zenith"
+        stack = "Go, Python, Docker, Kubernetes, Postgres"
+        details = """Zenith is a serverless open source alternative to AWS Aurora Postgres."""
+
+        [[params.jobs.list]]
+        position = "Senior software developer"
+        dates = "2021 - 2022"
         company = "AliExpress Russia"
         product = "Seller center"
         product_url = "//seller.aliexpress.ru"
