@@ -173,11 +173,11 @@ Also I think I'm quite easy to get along with and adapt well to new teams and wo
         [[params.jobs.list]]
         position = "Senior software developer"
         dates = "2022 - Present"
-        company = "Zenith Inc."
-        product = "Console"
-        product_url = "//github.com/zenithdb/zenith"
+        company = "Neon Inc."
+        product = "Cloud"
+        product_url = "//github.com/neondatabase/neon"
         stack = "Go, Python, Docker, Kubernetes, Postgres"
-        details = """Zenith is a serverless open source alternative to AWS Aurora Postgres."""
+        details = """Neon is a serverless open source alternative to AWS Aurora Postgres."""
 
         [[params.jobs.list]]
         position = "Senior software developer"
