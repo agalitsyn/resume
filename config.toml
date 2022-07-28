@@ -176,7 +176,7 @@ Also I think I'm quite easy to get along with and adapt well to new teams and wo
         dates = "2022 - Present"
         company = "Neon Inc."
         product = "Cloud"
-        product_url = "//github.com/neondatabase/neon"
+        product_url = "//neon.tech"
         stack = "Go, Python, Docker, Kubernetes, Postgres"
         details = """Neon is a serverless open source alternative to AWS Aurora Postgres."""
 
