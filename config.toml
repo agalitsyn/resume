@@ -116,16 +116,17 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Introduction"
-        summary = """Hello, I’m Anton! I have more than 10 years of experience with web technologies in various business domains.
+        summary = """Hello, I’m Anton! I have more than 10 years of experience in backend development in various business domains.
 
-I’m passionate about creating software products that can improve everyday life of people and making tools that help developers to be productive.
+I’m passionate about creating software products that can improve everyday life of customers or making tools that helps developers to be more productive.
 
 What I do best:
-* I work with team to build new product features from start to finish: through conception, research, implementation, and maintenance.
-* I can help you to build a service for millions of users, deliver a fast, reliable, and secure experience. Also I can improve the performance and reliability of existed services, or polish existing features.
-* I understand developer pain points and able to address them in products. For example, I can help you to build a robust, powerful, and developer-friendly API and platform.
-* Take responsibility to lead parts of a project or whole project.
-* Junior staff onboarding, mentoring at my areas of competence. Assisting other team members.
+* Work with a team on any stage of building product: designing features from scratch, implementation, public releases and maintenance.
+* Deliver a fast, reliable and secure experience for millions of users.
+* Take into account developer's pain points and able to address them in products. For example, I can help you to build a robust, powerful, and developer-friendly API's or CLI's.
+* Take technical ownership for parts of a project or a whole project.
+* Middle/Junior staff onboarding, mentoring at my areas of competence.
+* Participate in hiring process for software engineers.
 
 As a team member I tend to be quite diligent person, focusing on work objectives and proper delivery. I have thoughtful problem-solving skills and pragmatic and business-oriented approach.
 Also I think I'm quite easy to get along with and adapt well to new teams and workflows. I believe in empathetic communication and team work.
@@ -156,7 +157,7 @@ Also I think I'm quite easy to get along with and adapt well to new teams and wo
         skill = "Monitoring and alerting"
 
         [[params.skills.list]]
-        skill = "Vue, React, Typescript, JS, HTML, CSS"
+        skill = "Basic knowledge of Vue, React, Typescript, JS, HTML, CSS"
 
         [[params.skills.list]]
         skill = "Mentoring software engineers"
