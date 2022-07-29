@@ -178,7 +178,9 @@ Also I think I'm quite easy to get along with and adapt well to new teams and wo
         product = "Cloud"
         product_url = "//neon.tech"
         stack = "Go, Python, Docker, Kubernetes, Postgres"
-        details = """Neon is a serverless open source alternative to AWS Aurora Postgres."""
+        details = """Neon is a serverless open source alternative to AWS Aurora Postgres.
+I work on console, Neon control plane for DB clusters management with rich capabilities for user or admin. It have several APIs, CLIs, admin part, scheduler for clusters, metrics.
+        """
 
         [[params.jobs.list]]
         position = "Senior software developer"
