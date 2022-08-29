@@ -171,16 +171,16 @@ Also I think I'm quite easy to get along with and adapt well to new teams and wo
         icon = "fa-briefcase"
         title = "Experiences"
 
-        [[params.jobs.list]]
-        position = "Senior software developer"
-        dates = "2022 - Present"
-        company = "Neon Inc."
-        product = "Cloud"
-        product_url = "//neon.tech"
-        stack = "Go, Python, Docker, Kubernetes, Postgres"
-        details = """Neon is a serverless open source alternative to AWS Aurora Postgres.
-I work on console, Neon control plane for DB clusters management with rich capabilities for user or admin. It have several APIs, CLIs, admin part, scheduler for clusters, metrics.
-        """
+
+#         [[params.jobs.list]]
+#         position = "Lead software developer"
+#         dates = "2022 - Present"
+#         company = "Positive Technologies"
+#         product = "Extended Detection and Response (XDR)"
+#         product_url = "//www.ptsecurity.com/ru-ru/products/xdr/"
+#         stack = "Go"
+#         details = """
+# """
 
         [[params.jobs.list]]
         position = "Senior software developer"
@@ -300,6 +300,15 @@ Basically all apps was Go apps, which uses k8s resoures and APIs.
 
 Also worked with open-source projects, like
 * [helm/helm](https://github.com/helm/helm/pull/1766)
+"""
+
+        [[params.projects.list]]
+        title = "Neon Inc."
+        url = "//neon.tech"
+        dates = "2022"
+        stack = "Go, Python, Docker, Kubernetes, Postgres"
+        details = """Neon is a serverless open source alternative to AWS Aurora Postgres.
+I work on console, Neon control plane for DB clusters management with rich capabilities for user or admin. It have several APIs, CLIs, admin part, scheduler for clusters, metrics.
 """
 
     # Publications section
