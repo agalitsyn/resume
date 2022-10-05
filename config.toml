@@ -116,17 +116,17 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Introduction"
-        summary = """Hello, I’m Anton! I have more than 10 years of experience in backend development in various business domains.
-
-I’m passionate about creating software products that can improve everyday life of customers or making tools that helps developers to be more productive.
+        summary = """Hello, I’m Anton! Over the past 10 years I've accumulated different experience as a software developer in various business domains. 
 
 What I do best:
-* Work with a team on any stage of building product: designing features from scratch, implementation, public releases and maintenance.
+* Work with a team on any stage of building product: designing features from scratch, implementation, public release, maintenance.
 * Deliver a fast, reliable and secure experience for millions of users.
-* Take into account developer's pain points and able to address them in products. For example, I can help you to build a robust, powerful, and developer-friendly API's or CLI's.
-* Take technical ownership for parts of a project or a whole project.
+* Do a technical leadership and ownership.
+* Take into account developer's pain points and able to address them in products.
 * Middle/Junior staff onboarding, mentoring at my areas of competence.
 * Participate in hiring process for software engineers.
+
+I’m passionate about creating software products that can improve everyday life of customers or making tools and libraries that helps developers to be more productive.
 
 As a team member I tend to be quite diligent person, focusing on work objectives and proper delivery. I have thoughtful problem-solving skills and pragmatic and business-oriented approach.
 Also I think I'm quite easy to get along with and adapt well to new teams and workflows. I believe in empathetic communication and team work.
@@ -157,7 +157,7 @@ Also I think I'm quite easy to get along with and adapt well to new teams and wo
         skill = "Monitoring and alerting"
 
         [[params.skills.list]]
-        skill = "Basic knowledge of Vue, React, Typescript, JS, HTML, CSS"
+        skill = "Build admin UI's with modern web stack: Vue/React, TypeScript, Tailwind, etc"
 
         [[params.skills.list]]
         skill = "Mentoring software engineers"
@@ -171,16 +171,15 @@ Also I think I'm quite easy to get along with and adapt well to new teams and wo
         icon = "fa-briefcase"
         title = "Experiences"
 
-
-#         [[params.jobs.list]]
-#         position = "Lead software developer"
-#         dates = "2022 - Present"
-#         company = "Positive Technologies"
-#         product = "Extended Detection and Response (XDR)"
-#         product_url = "//www.ptsecurity.com/ru-ru/products/xdr/"
-#         stack = "Go"
-#         details = """
-# """
+        [[params.jobs.list]]
+        position = "Lead software developer"
+        dates = "2022 - Present"
+        company = "Positive Technologies"
+        product = "Extended Detection and Response (XDR)"
+        product_url = "//www.ptsecurity.com/ru-ru/products/xdr/"
+        stack = "Go, Docker, Ansible, Gitlab-CI, Python"
+        details = """
+        """
 
         [[params.jobs.list]]
         position = "Senior software developer"
@@ -198,7 +197,7 @@ Generally, all tasks is about building various HTTP + gRPC backends in k8s envir
 * Storing data in S3
 * Distributes locks with etcd
 
-Personally I like to use one-repository approach for services with multiple apps inside, demo you can find here https://github.com/agalitsyn/go-app and check out readme.
+Also I worked on internal Go template project with libs for logging, tracing and metrics. Personally I like to use one-repository approach for 1 service with multiple domain related apps inside. Demo you can find here https://github.com/agalitsyn/go-app and check out readme.
         """
 
         [[params.jobs.list]]
