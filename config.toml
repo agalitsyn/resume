@@ -116,7 +116,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Introduction"
-        summary = """Hello, I’m Anton! Over the past 10 years I've accumulated different experience as a software developer in various business domains. 
+        summary = """Hello, I’m Anton! Over the past 10 years I've accumulated different experience as a software developer in various business domains.
 
 What I do best:
 * Work with a team on any stage of building product: designing features from scratch, implementation, public release, maintenance.
@@ -129,7 +129,7 @@ What I do best:
 I’m passionate about creating software products that can improve everyday life of customers or making tools and libraries that helps developers to be more productive.
 
 As a team member I tend to be quite diligent person, focusing on work objectives and proper delivery. I have thoughtful problem-solving skills and pragmatic and business-oriented approach.
-Also I think I'm quite easy to get along with and adapt well to new teams and workflows. I believe in empathetic communication and team work.
+I think I'm quite easy to get along with and adapt well to new teams and workflows.
 """
 
     # Skills section
