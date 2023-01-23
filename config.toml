@@ -28,7 +28,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Anton Galitsyn"
-        tagline = "Senior Software Developer"
+        tagline = "Software Developer"
         avatar = "profile.jpg"
 
     # Contact section
@@ -116,15 +116,14 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Introduction"
-        summary = """Hello, I’m Anton! Over the past 10 years I've accumulated different experience as a software developer in various business domains.
+        summary = """Hello, I’m Anton! Over the past 12 years I've accumulated different experience as a software developer in various business domains.
 
 What I do best:
 * Work with a team on any stage of building product: designing features from scratch, implementation, public release, maintenance.
 * Deliver a fast, reliable and secure experience for millions of users.
-* Do a technical leadership and ownership.
-* Take into account developer's pain points and able to address them in products.
-* Middle/Junior staff onboarding, mentoring at my areas of competence.
-* Participate in hiring process for software engineers.
+* Take technical leadership and ownership.
+* Take into account developers pain points and able to address them in products.
+* Mentoring teammates at my areas of competence.
 
 I’m passionate about creating software products that can improve everyday life of customers or making tools and libraries that helps developers to be more productive.
 
@@ -155,15 +154,6 @@ I think I'm quite easy to get along with and adapt well to new teams and workflo
 
         [[params.skills.list]]
         skill = "Monitoring and alerting"
-
-        [[params.skills.list]]
-        skill = "Build admin UI's with modern web stack: Vue/React, TypeScript, Tailwind, etc"
-
-        [[params.skills.list]]
-        skill = "Mentoring software engineers"
-
-        [[params.skills.list]]
-        skill = "Public and internal tech talks"
 
     # Experiences section
     [params.experiences]
