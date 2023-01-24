@@ -28,7 +28,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Anton Galitsyn"
-        tagline = "Software Developer"
+        tagline = "Senior Software Developer"
         avatar = "profile.jpg"
 
     # Contact section
@@ -119,7 +119,7 @@ disable404 = true
         summary = """Hello, I’m Anton! Over the past 12 years I've accumulated different experience as a software developer in various business domains.
 
 What I do best:
-* Build backends, service oriented architectures, or microservices
+* Build backends, service oriented architectures or microservices.
 * Deliver a highly scaled, reliable and secure solutions in multiple environments.
 * Take technical leadership and ownership.
 * Designing test plans, unit testing, and integration testing to ensure high quality code that is free of regressions.
@@ -129,7 +129,7 @@ What I do best:
 * Mentoring teammates at my areas of competence and providing high quality constructive feedback on pull requests and design documents.
 
 Things I value most:
-* Be Accountable.
+* Be accountable.
 * Have an ability to demonstrate craftsmanship.
 * Take care for customers and community.
 * Find myself in a place where learning, growth, impact, and fun intersects.
@@ -137,7 +137,9 @@ Things I value most:
 As a team member I tend to be quite diligent person, focusing on work objectives and proper delivery. I have thoughtful problem-solving skills and pragmatic and business-oriented approach.
 I think I'm quite easy to get along with and adapt well to new teams and workflows.
 
-Looking for a full-time job in open-source Go projects, probably at [CNCF](https://www.cncf.io/) area. My current timezone is GMT +7.
+Also, several times I've worked remotely in English-speaking teams from USA and EU. My current timezone is GMT +7.
+
+Looking for a full-time job in open-source Go projects, probably at [CNCF](https://www.cncf.io/) area.
 """
 
     # Skills section
