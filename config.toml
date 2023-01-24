@@ -119,16 +119,25 @@ disable404 = true
         summary = """Hello, I’m Anton! Over the past 12 years I've accumulated different experience as a software developer in various business domains.
 
 What I do best:
-* Work with a team on any stage of building product: designing features from scratch, implementation, public release, maintenance.
-* Deliver a fast, reliable and secure experience for millions of users.
+* Build backends, service oriented architectures, or microservices
+* Deliver a highly scaled, reliable and secure solutions in multiple environments.
 * Take technical leadership and ownership.
-* Take into account developers pain points and able to address them in products.
-* Mentoring teammates at my areas of competence.
+* Designing test plans, unit testing, and integration testing to ensure high quality code that is free of regressions.
+* Partnering with other roles on a shared mission: demonstrating highly effective communication and collaboration skills.
+* Work with a team on any stage of building product: discovery, analysis, architecture, design, documentation, building, migration, automation.
+* Take into account developers pain points and able to address them in product.
+* Mentoring teammates at my areas of competence and providing high quality constructive feedback on pull requests and design documents.
 
-I’m passionate about creating software products that can improve everyday life of customers or making tools and libraries that helps developers to be more productive.
+Things I value most:
+* Be Accountable.
+* Have an ability to demonstrate craftsmanship.
+* Take care for customers and community.
+* Find myself in a place where learning, growth, impact, and fun intersects.
 
 As a team member I tend to be quite diligent person, focusing on work objectives and proper delivery. I have thoughtful problem-solving skills and pragmatic and business-oriented approach.
 I think I'm quite easy to get along with and adapt well to new teams and workflows.
+
+Looking for a full-time job in open-source Go projects, probably at [CNCF](https://www.cncf.io/) area. My current timezone is GMT +7.
 """
 
     # Skills section
@@ -144,16 +153,19 @@ I think I'm quite easy to get along with and adapt well to new teams and workflo
         skill = "Python"
 
         [[params.skills.list]]
+        skill = "PostgreSQL"
+
+        [[params.skills.list]]
         skill = "Test automation"
 
         [[params.skills.list]]
         skill = "CI/CD pipelines"
 
         [[params.skills.list]]
-        skill = "Linux, Ansible, Docker, Kubernetes"
+        skill = "Clouds, Ansible, Docker, Kubernetes"
 
         [[params.skills.list]]
-        skill = "Monitoring and alerting"
+        skill = "Monitoring and alerting, Prometheus, Grafana, Loki"
 
     # Experiences section
     [params.experiences]
