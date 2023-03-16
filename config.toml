@@ -176,7 +176,7 @@ Looking for a full-time job in open-source Go projects, probably at [CNCF](https
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead software developer"
+        position = "Team Lead of backend team"
         dates = "2022 - Present"
         company = "Positive Technologies"
         product = "Extended Detection and Response (XDR)"
