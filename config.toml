@@ -181,16 +181,17 @@ Also, several times I've worked remotely in English-speaking teams from USA and 
         product = ""
         product_url = ""
         stack = "Go, Docker, Gitlab-CI, Python, Bash"
-        details = """What I've done:
-        1. Defined long-term project plans:
-        * How to increase developer productivity and exprience on existing codebase
-        * How to increase testability and stability of backend services
-        * CI/CD improvements, faster build and test times, cross-repository integrations
-        * Opensource/closed-source development strategy
-        2. Feature planning and tasks decomposition
-        3. Code reviews
-        4. Mentoring other software engineers
-        5. Participate in in-house Go community as co-organizer and speaker
+        details = """Achievements:
+1. Have defined project plans (duration: 6 months - 1 year):
+* How to increase developer productivity and developer exprience on existing codebase along with feature development;
+* How to increase testability and stability of backend services;
+* CI/CD improvements, faster build and test times, cross-repository integrations;
+* Opensource/closed-source development strategy;
+2. Feature planning and tasks decomposition
+3. Code reviews
+4. Mentoring other software engineers
+5. Participate in in-house Go community as co-organizer and speaker
+    - Speaker: How to create Go app from scratch, recommended and not recommended approaches and libs for starting web backend project.
         """
 
         [[params.jobs.list]]

@@ -8,8 +8,8 @@ build:
 update-deps:
 	git submodule update --remote
 
-.PHONY: start
-start:
+.PHONY: dev
+dev:
 	hugo server -w
 
 .PHONY: preview-production
