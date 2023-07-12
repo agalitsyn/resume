@@ -59,11 +59,11 @@ disable404 = true
         url = "//t.me/agalitsyn"
         title = "agalitsyn"
 
-        [[params.contact.list]]
-        class = "linkedin"
-        icon = "fa-linkedin"
-        url = "//linkedin.com/in/anton-galitsyn-a31925179"
-        title = "anton-galitsyn"
+        # [[params.contact.list]]
+        # class = "linkedin"
+        # icon = "fa-linkedin"
+        # url = "//linkedin.com/in/anton-galitsyn-a31925179"
+        # title = "anton-galitsyn"
 
         [[params.contact.list]]
         class = "github"
@@ -138,9 +138,8 @@ As a team member I tend to be quite diligent person, focusing on work objectives
 I think I'm quite easy to get along with and adapt well to new teams and workflows.
 
 Also, several times I've worked remotely in English-speaking teams from USA and EU. My current timezone is GMT +7.
-
-Looking for a full-time job in open-source Go projects, probably at [CNCF](https://www.cncf.io/) area.
 """
+# Looking for a full-time job in open-source Go projects, probably at [CNCF](https://www.cncf.io/) area.
 
     # Skills section
     [params.skills]
@@ -176,13 +175,22 @@ Looking for a full-time job in open-source Go projects, probably at [CNCF](https
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Team Lead of backend team"
-        dates = "2022 - Present"
+        position = "Lead software developer"
+        dates = "2022 - now"
         company = "Positive Technologies"
-        product = "Extended Detection and Response (XDR)"
-        product_url = "//www.ptsecurity.com/ru-ru/products/xdr/"
-        stack = "Go, Docker, Ansible, Gitlab-CI, Python"
-        details = """
+        product = ""
+        product_url = ""
+        stack = "Go, Docker, Gitlab-CI, Python, Bash"
+        details = """What I've done:
+        1. Defined long-term project plans:
+        * How to increase developer productivity and exprience on existing codebase
+        * How to increase testability and stability of backend services
+        * CI/CD improvements, faster build and test times, cross-repository integrations
+        * Opensource/closed-source development strategy
+        2. Feature planning and tasks decomposition
+        3. Code reviews
+        4. Mentoring other software engineers
+        5. Participate in in-house Go community as co-organizer and speaker
         """
 
         [[params.jobs.list]]
@@ -191,7 +199,7 @@ Looking for a full-time job in open-source Go projects, probably at [CNCF](https
         company = "AliExpress Russia"
         product = "Seller center"
         product_url = "//seller.aliexpress.ru"
-        stack = "Go, gRPC, Docker, Kubernetes, Kafka, Postgres, Redis, S3"
+        stack = "Go, gRPC, Protobuf, Docker, Kubernetes, Kafka, Postgres, Redis, S3"
         details = """Seller Center is a space where sellers can manage their products, logistics, stats, etc.
 Generally, all tasks is about building various HTTP + gRPC backends in k8s environment, some of them includes:
 * Using gRPC-Gateway
