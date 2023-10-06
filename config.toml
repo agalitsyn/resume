@@ -119,7 +119,7 @@ disable404 = true
         summary = """Hello, I’m Anton! Over the past 12 years I've accumulated different experience as a software developer in various business domains.
 
 What I do best:
-* Build backends, service oriented architectures or microservices.
+* Build backends (monolilth, service oriented architecture, microservices).
 * Deliver a highly scaled, reliable and secure solutions in multiple environments.
 * Take technical leadership and ownership.
 * Designing test plans, unit testing, and integration testing to ensure high quality code that is free of regressions.
@@ -178,15 +178,15 @@ Also, several times I've worked remotely in English-speaking teams from USA and 
         position = "Lead software developer"
         dates = "2022 - now"
         company = "Positive Technologies"
-        product = ""
-        product_url = ""
-        stack = "Go, Docker, Gitlab-CI, Python, Bash"
+        product = "Threat Analyzer"
+        product_url = "//help.ptsecurity.com/projects/threatanalyzer/2.11.0/en-US/help/818000779"
+        stack = "Go, Postgres, Kubnernetes, Python, Gitlab"
         details = """Achievements:
-1. Have defined project plans (duration: 6 months - 1 year):
+1. Define project plans (duration: 6 months - 1 year):
 * How to increase developer productivity and developer exprience on existing codebase along with feature development;
 * How to increase testability and stability of backend services;
-* CI/CD improvements, faster build and test times, cross-repository integrations;
-* Opensource/closed-source development strategy;
+* How to opensource parts of enterprise projects;
+* CI/CD improvements, faster builds and tests time, cross-repository integrations;
 2. Feature planning and tasks decomposition
 3. Code reviews
 4. Mentoring other software engineers
@@ -217,17 +217,15 @@ Also I worked on internal Go template project with libs for logging, tracing and
         position = "Senior software developer"
         dates = "2018 - 2021"
         company = "Positive Technologies"
-        product = "Cybersecurity Intelligence"
-        product_url = "//ptsecurity.com/ru-ru/products/cybersecurity-intelligence"
-        stack = "Go, Docker, Ansible, Gitlab-CI, Python"
-        details = """This product is about:
-* Analytics system for security reports with data enrichment and search.
-* Aggregations, indicator correlations, output feeds.
-* Generic API for 3rd-party software.
-* Integration with security software of other vendors like Trendmicro, VirusTotal, etc.
+        product = "Threat Analyzer"
+        product_url = "//help.ptsecurity.com/projects/threatanalyzer/2.11.0/en-US/help/818000779"
+        stack = "Go, Postgres, Docker, Ansible, Gitlab-CI, Python"
+        details = """PT Threat Analyzer is a software platform for accumulating knowledge about existing and potential threats to information security and how to detect them.
+PT Threat Analyzer collects, analyzes, and stores data on security threats and indicators of compromise that can be distinguished within a threat.
+Indicators of compromise are artifacts detected in a network or in an operating system and indicating malicious activity in the infrastructure.
 
-I did achitecture and development of several subsystems: Auth, API, artifact analyzer gateway, storage system, data migrations.
-Also I did CI and deployment a lot, before infrastructure engineers was hired.
+I made achitecture and development of several subsystems: Auth, API, Artifact analyzer gateway, Storage system, Data migrations.
+Also I created and maintained CI/CD and installation tool, before infrastructure engineer was hired.
         """
 
         [[params.jobs.list]]
