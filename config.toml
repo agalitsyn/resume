@@ -148,25 +148,22 @@ Also, several times I've worked remotely in English-speaking teams from USA and 
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Go"
+        skill = "Backend services and CLI tools: Go and Python"
 
         [[params.skills.list]]
-        skill = "Python"
+        skill = "Web development: Python (Django, FastAPI); JS/TS (React, Vue); HTML, CSS"
 
         [[params.skills.list]]
-        skill = "PostgreSQL"
+        skill = "Storages: PostgreSQL, Redis, Kafka, etc"
 
         [[params.skills.list]]
-        skill = "Test automation"
+        skill = "Tests automation and CI pipelines"
 
         [[params.skills.list]]
-        skill = "CI/CD pipelines"
+        skill = "CD pipelines: Clouds, Ansible, Docker, Kubernetes"
 
         [[params.skills.list]]
-        skill = "Clouds, Ansible, Docker, Kubernetes"
-
-        [[params.skills.list]]
-        skill = "Monitoring and alerting, Prometheus, Grafana, Loki"
+        skill = "Monitoring, alerting, tracing: Prometheus, Grafana, Loki, Jaeger"
 
     # Experiences section
     [params.experiences]
