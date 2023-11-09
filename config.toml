@@ -154,13 +154,13 @@ Also, several times I've worked remotely in English-speaking teams from USA and 
         skill = "Web development: Python (Django, FastAPI); JS/TS (React, Vue); HTML, CSS"
 
         [[params.skills.list]]
-        skill = "Storages: PostgreSQL, Redis, Kafka, etc"
+        skill = "Databases, queues, caches, etc"
 
         [[params.skills.list]]
         skill = "Tests automation and CI pipelines"
 
         [[params.skills.list]]
-        skill = "CD pipelines: Clouds, Ansible, Docker, Kubernetes"
+        skill = "Deployment pipelines: Ansible, Docker, Kubernetes"
 
         [[params.skills.list]]
         skill = "Monitoring, alerting, tracing: Prometheus, Grafana, Loki, Jaeger"
