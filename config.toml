@@ -148,10 +148,10 @@ My current timezone is GMT +7. Working remotely in international English speakin
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Backends: Go"
+        skill = "Backend: Go"
 
         [[params.skills.list]]
-        skill = "Web development: Python (Django, FastAPI); JS/TS (React, Vue); HTML, CSS"
+        skill = "Web and fullstack: Python (Django, FastAPI); JS/TS (React, Vue); HTML, CSS"
 
         [[params.skills.list]]
         skill = "Databases, queues, caches, etc"
