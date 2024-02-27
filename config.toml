@@ -290,13 +290,13 @@ cultural & educational media website, corporate website.
     [params.projects]
         enable = true
         icon = "fa-file"
-        title = "Contract work"
+        title = "Contract/Part-time work and Startups"
         intro = ""
 
         [[params.projects.list]]
         title = "Gravitational"
         url = "//goteleport.com/gravity"
-        dates = "2016"
+        dates = "2016-2017"
         stack = "Go, kubernetes, terraform, prometheus, grafana, jenkins"
         details = """Worked on several applications, which runs on
 [gravitational/gravity](https://github.com/gravitational/gravity) platform.
@@ -312,10 +312,19 @@ Also worked with open-source projects, like
         [[params.projects.list]]
         title = "Neon Inc."
         url = "//neon.tech"
-        dates = "2022"
+        dates = "2021-2022"
         stack = "Go, Python, Docker, Kubernetes, Postgres"
         details = """Neon is a serverless open source alternative to AWS Aurora Postgres.
 I work on console, Neon control plane for DB clusters management with rich capabilities for user or admin. It have several APIs, CLIs, admin part, scheduler for clusters, metrics.
+"""
+
+[[params.projects.list]]
+        title = "BRIAR"
+        url = "//briar.biz"
+        dates = "2015-20xx"
+        stack = "Python, Docker, Postgres, Vue 3, Nuxt, Tailwind"
+        details = """BRIAR is a russian sewing company.
+I created everything from scratch: web-site, backoffice (custom CRM & ERP app), seller app, and many different tools for retailing.
 """
 
     # Publications section
