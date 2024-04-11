@@ -4,8 +4,8 @@ BUILD_DIR := docs
 build:
 	hugo --destination $(BUILD_DIR)
 
-.PHONY: update-deps
-update-deps:
+.PHONY: update-theme
+update-theme:
 	git submodule update --remote
 
 .PHONY: dev
@@ -13,5 +13,6 @@ dev:
 	hugo server -w
 
 .PHONY: preview-production
-preview-production:
+preview-production: build
 	python3 -m http.server 8080 --bind localhost --directory $(BUILD_DIR)
+
