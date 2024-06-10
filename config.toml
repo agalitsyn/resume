@@ -149,6 +149,9 @@ My current timezone is GMT +7. Working remotely in international English-speakin
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
+        skill = "Backend and full-stack web development"
+
+        [[params.skills.list]]
         skill = "🩶 Go"
 
         [[params.skills.list]]
