@@ -116,10 +116,10 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Introduction"
-        summary = """Hello, I’m Anton! Since 2010 I've accumulated different experiences as a software developer in various business domains and side projects.
+        summary = """Hello, I’m Anton and I like to build products. Since 2010 I've accumulated different experiences as a software developer in various business domains and side projects.
 
-What I do best by now:
-* Build backends with various achitecture types: monolilths, service oriented architecture, microservices.
+Responsibilities highlights:
+* Build backends with various achitecture types: monolilths, service oriented architecture, microservices, CLIs.
 * Deliver a highly scaled, reliable and secure solutions in multiple environments.
 * Take technical leadership and ownership.
 * Designing test plans, unit testing and integration testing to ensure high quality code that is free of regressions.
@@ -149,25 +149,28 @@ My current timezone is GMT +7. Working remotely in international English-speakin
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Backend and full-stack web development"
+        skill = "Go"
 
         [[params.skills.list]]
-        skill = "🩶 Go"
+        skill = "Python (Django, FastAPI)"
 
         [[params.skills.list]]
-        skill = "Python (Django, FastAPI); JS/TS (React, Vue); HTML, CSS"
+        skill = "TypeScript and JavaScript (React or Vue 2/3) + HTML + CSS"
 
         [[params.skills.list]]
-        skill = "PostgreSQL, Redis, Kafka, S3, Kubernetes"
+        skill = "PostgreSQL, Redis, Kafka, S3"
+
+        [[params.skills.list]]
+        skill = "Ansible, Docker, Kubernetes"
+
+        [[params.skills.list]]
+        skill = "Monitoring, Alerting, Tracing: Prometheus, Grafana, Loki, Jaeger, etc"
 
         [[params.skills.list]]
         skill = "Tests automation"
 
         [[params.skills.list]]
-        skill = "CI/CD pipelines: Gitlab CI, Github Actions, Ansible, Docker, Kubernetes"
-
-        [[params.skills.list]]
-        skill = "Monitoring, alerting, tracing: Prometheus, Grafana, Loki, Jaeger"
+        skill = "CI/CD pipelines, Gitlab CI, Github Actions"
 
     # Experiences section
     [params.experiences]
