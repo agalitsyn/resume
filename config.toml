@@ -18,7 +18,7 @@ disable404 = true
 
 [params]
 # Meta
-    description = "Anton Galitsyn CV"
+    description = "Anton Galitsyn resume"
     author = "Anton Galitsyn"
 
 # Theme styles
@@ -47,11 +47,11 @@ disable404 = true
         # url = "tel:+79133867287"
         # title = "+79133867287"
 
-        [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//agalitsyn.github.io"
-        title = "agalitsyn.github.io"
+        # [[params.contact.list]]
+        # class = "website"
+        # icon = "fa-globe"
+        # url = "//agalitsyn.github.io"
+        # title = "agalitsyn.github.io"
 
         [[params.contact.list]]
         class = "telegram"
@@ -71,11 +71,11 @@ disable404 = true
         url = "//github.com/agalitsyn"
         title = "github.com/agalitsyn"
 
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/anton_galitsyn"
-        title = "@anton_galitsyn"
+        # [[params.contact.list]]
+        # class = "twitter"
+        # icon = "fa-twitter"
+        # url = "//twitter.com/anton_galitsyn"
+        # title = "@anton_galitsyn"
 
     # Education section
     [params.education]
@@ -83,7 +83,7 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "Engineer"
+        degree = "Master’s engineering degree"
         college = "Siberian State University of Telecommunications and Information Sciences"
         dates = "2006 - 2011"
 
@@ -94,7 +94,7 @@ disable404 = true
 
         [[params.language.list]]
         language = "English"
-        level = "Professional"
+        level = "C1"
 
         [[params.language.list]]
         language = "Russian"
@@ -109,25 +109,19 @@ disable404 = true
         interest = ""
 
 # Main body sections
-    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
-
     # Summary section
     [params.summary]
         enable = true
         icon = "fa-user"
-        title = "Introduction"
-        summary = """Hello, I’m Anton and I like to build products. Since 2010 I've accumulated different experiences as a software developer in various business domains and side projects.
-
-Responsibilities highlights:
-* Build backends with various achitecture types: monolilths, service oriented architecture, microservices, CLIs.
-* Deliver a highly scaled, reliable and secure solutions in multiple environments.
-* Take technical leadership and ownership.
-* Designing test plans, unit testing and integration testing to ensure high quality code that is free of regressions.
-* Partnering with other roles on a shared mission: demonstrating highly effective communication and collaboration skills.
-* Work with a team on any stage of building product: discovery, analysis, architecture, design, documentation, building, migration, automation.
-* Take into account developers pain points and able to address them in product.
-* Mentoring teammates at my areas of competence and providing high quality constructive feedback on pull requests and design documents.
-* Can work both with legacy and greenfield projects.
+        title = "Highlights"
+        summary = """What to expect from me:
+* Building backends with diverse architecture types: monoliths, service-oriented architectures, microservices, and CLIs.
+* Delivering highly scalable, reliable, and secure solutions across various environments.
+* Taking technical leadership and ownership of projects.
+* Designing test plans, including unit and integration testing, to ensure high-quality, regression-free code.
+* Collaborating effectively with cross-functional roles, leveraging strong communication and teamwork skills.
+* Contributing to all stages of product development: discovery, analysis, architecture, design, documentation, implementation, migration, and automation.
+* Mentoring teammates in areas of expertise and providing constructive feedback on pull requests and design documents.
 
 Things I value most:
 * Be accountable.
@@ -135,42 +129,33 @@ Things I value most:
 * Take care for customers and community.
 * Find myself in a place where learning, growth, impact and fun intersects.
 
-As a team member I tend to be quite diligent person, focusing on work objectives and proper delivery. I have thoughtful problem-solving skills and pragmatic and business-oriented approach.
-I think I'm quite easy to get along with and adapt well to new teams and workflows.
-
-My current timezone is GMT +7. Working remotely in international English-speaking teams with multiple timezones since 2016.
+As a team member, I am diligent and focused on objectives and delivery. I approach problems thoughtfully and with a pragmatic, business-oriented mindset. I adapt well to new teams and workflows and am easy to collaborate with.
 """
-# Looking for a full-time job in open-source Go projects, probably at [CNCF](https://www.cncf.io/) area.
 
     # Skills section
     [params.skills]
-        enable = true
-        icon = "fa-rocket"
-        title = "Skills & Proficiency"
+    enable = true
+    icon = "fa-rocket"
+    title = "Skills & Proficiency"
 
-        [[params.skills.list]]
-        skill = "Go"
+    [[params.skills.list]]
+    skill = "Backend: Go, Python"
 
-        [[params.skills.list]]
-        skill = "Python (Django, FastAPI)"
+    [[params.skills.list]]
+    skill = "Frontend: TypeScript, React, Vue (v2/v3)"
 
-        [[params.skills.list]]
-        skill = "TypeScript and JavaScript (React or Vue 2/3) + HTML + CSS"
+    [[params.skills.list]]
+    skill = "Infrastructure: PostgreSQL, Redis, Kafka, and S3"
 
-        [[params.skills.list]]
-        skill = "PostgreSQL, Redis, Kafka, S3"
+    [[params.skills.list]]
+    skill = "DevOps & Automation: Ansible, Docker, Kubernetes, CI/CD pipelines (GitLab CI, GitHub Actions)"
 
-        [[params.skills.list]]
-        skill = "Ansible, Docker, Kubernetes"
+    [[params.skills.list]]
+    skill = "Observability & Monitoring: Prometheus, Grafana, Loki, Jaeger, and similar tools"
 
-        [[params.skills.list]]
-        skill = "Monitoring, Alerting, Tracing: Prometheus, Grafana, Loki, Jaeger, etc"
+    [[params.skills.list]]
+    skill = "Testing & Quality Assurance: expertise in test automation for unit, integration, and end-to-end testing"
 
-        [[params.skills.list]]
-        skill = "Tests automation"
-
-        [[params.skills.list]]
-        skill = "CI/CD pipelines, Gitlab CI, Github Actions"
 
     # Experiences section
     [params.experiences]
@@ -180,61 +165,111 @@ My current timezone is GMT +7. Working remotely in international English-speakin
 
         [[params.jobs.list]]
         position = "Lead software developer"
-        dates = "2022 - now"
+        dates = "Sept 2022 - now"
         company = "Positive Technologies"
         product = "Threat Analyzer"
         product_url = "//help.ptsecurity.com/projects/threatanalyzer/2.11.0/en-US/help/818000779"
         stack = "Go, Postgres, Kubnernetes, Python, Gitlab"
-        details = """Achievements:
-1. Define project plans (duration: 6 months - 1 year):
-* How to increase developer productivity and developer exprience on existing codebase along with feature development;
-* How to increase testability and stability of backend services;
-* How to opensource parts of enterprise projects;
-* CI/CD improvements, faster builds and tests time, cross-repository integrations;
-2. Feature planning and tasks decomposition
-3. Code reviews
-4. Mentoring other software engineers
-5. Participate in in-house Go community as co-organizer and speaker
-    - Speaker: How to create Go app from scratch, recommended and not recommended approaches and libs for starting web backend project.
-        """
+        details = """Threat Analyzer is an analytics database with modular extensions that enhance its core functionality.
+Extensions allow users to upload, export, and analyze data, generating custom reports. Each Threat Analyzer instance supports many extensions,
+with each extension running as a separate application on a Kubernetes cluster alongside core services.
+
+One of my key projects was "Box" an infrastructure component that acts as an extensions catalog. Box facilitates the full lifecycle
+management of extensions, including installation, upgrades, deletions, starts, and stops. It also provides state visualization, log viewing,
+and diagnostic tools to simplify extension management.
+
+**Key Responsibilities:**
+1. **Project Planning**: Defined project roadmaps for initiatives ranging from several months to a year, aligning goals with business priorities.
+2. **Feature Planning & Task Decomposition**: Translated high-level requirements into actionable development tasks, ensuring smooth execution.
+3. **Code Reviews**: Conducted thorough reviews to maintain code quality and ensure adherence to best practices.
+4. **Mentorship**: Guided junior and mid-level developers, fostering skill growth and technical competence.
+5. **Development**: Designed and implemented critical features for "Threat Analyzer: Box" leveraging Go, Kubernetes, and PostgreSQL.
+
+**Additional Contributions:**
+- Co-organizer and speaker in the in-house Go community.
+    - **Talks Delivered**: Presented "How to Create a Go App from Scratch," covering recommended practices, libraries, and pitfalls when starting a web backend project.
+"""
 
         [[params.jobs.list]]
         position = "Senior software developer"
-        dates = "2021 - 2022"
-        company = "AliExpress Russia"
+        company = "Neon Inc."
+        product = "Console"
+        product_url = "//console.neon.tech/"
+        dates = "2022-2022 (8 months)"
+        stack = "Go, Python, Docker, Kubernetes, Postgres"
+        details = """Neon is a serverless open-source alternative to AWS Aurora PostgreSQL, designed for highly scalable database management.
+
+I contributed to the development of Neon's control plane ("Console"), which manages DB clusters with advanced capabilities for users and administrators.
+
+My key responsibilities included:
+- Designing and implementing APIs and CLIs to streamline cluster provisioning and management.
+- Developing an admin panel with monitoring, troubleshooting, and configuration tools.
+- Building a cluster scheduler that optimized resource allocation across the infrastructure.
+- Implementing metrics and telemetry systems to enhance observability and performance monitoring.
+
+**Impact**:
+- Improved system usability for administrators and end-users, reducing setup and configuration time.
+- Enhanced cluster scheduling efficiency.
+
+This role required close collaboration with cross-functional teams to deliver a robust, serverless DB solution in a fast-paced startup environment.
+"""
+
+        [[params.jobs.list]]
+        position = "Senior software developer"
+        dates = "2021 - 2022 (1 year)"
+        company = "AliExpress"
         product = "Seller center"
         product_url = "//seller.aliexpress.ru"
         stack = "Go, gRPC, Protobuf, Docker, Kubernetes, Kafka, Postgres, Redis, S3"
-        details = """Seller Center is a space where sellers can manage their products, logistics, stats, etc.
-Generally, all tasks is about building various HTTP + gRPC backends in k8s environment, some of them includes:
-* Using gRPC-Gateway
-* Consumer, Producer for Apache Kafka
-* RBD storage - postgres. Bulk inserts, updates, query optimization, applying indexes, etc.
-* Caching in memory or in Redis
-* Storing data in S3
-* Distributes locks with etcd
+        details = """Seller Center is a platform enabling sellers to manage products, logistics, and performance analytics. I contributed to building and optimizing backends for critical features in a Kubernetes-based microservices architecture.
 
-Also I worked on internal Go template project with libs for logging, tracing and metrics. Personally I like to use one-repository approach for 1 service with multiple domain related apps inside. Demo you can find here https://github.com/agalitsyn/go-app and check out readme.
-        """
+**Key Responsibilities:**
+- Designed and developed scalable HTTP and gRPC APIs using gRPC-Gateway, enabling seamless communication between services.
+- Built Kafka producers and consumers for event-driven features.
+- Optimized PostgreSQL queries for bulk inserts, updates, and analytics.
+- Implemented caching solutions with Redis and in-memory strategies.
+- Developed distributed locking mechanisms using etcd to ensure system consistency in a high-concurrency environment.
+- Integrated S3 for efficient data storage.
+
+**Internal Contributions:**
+- Participate in creation of an internal Go template project. The template accelerated development and ensured consistency for new services.
+
+**Impact:**
+- Improved backend service reliability and scalability, enabling [specific outcome, e.g., seamless operations during peak traffic events].
+- Enhanced developer productivity by introducing reusable templates and optimizing workflows.
+
+This role required deep collaboration with cross-functional teams to deliver high-performance solutions in a fast-paced environment.
+"""
 
         [[params.jobs.list]]
         position = "Senior software developer"
-        dates = "2018 - 2021"
+        dates = "2018 - 2021 (2.5 years)"
         company = "Positive Technologies"
         product = "Threat Analyzer"
         product_url = "//help.ptsecurity.com/projects/threatanalyzer/2.11.0/en-US/help/818000779"
         stack = "Go, Postgres, Docker, Ansible, Gitlab-CI, Python"
-        details = """PT Threat Analyzer is a software platform for accumulating knowledge about existing and potential threats to information security and how to detect them.
-PT Threat Analyzer collects, analyzes, and stores data on security threats and indicators of compromise that can be distinguished within a threat.
-Indicators of compromise are artifacts detected in a network or in an operating system and indicating malicious activity in the infrastructure.
+        details = """PT Threat Analyzer is a platform for aggregating and analyzing knowledge about existing and potential cybersecurity threats, helping organizations detect and respond to indicators of compromise.
 
-I made achitecture and development of several subsystems: Auth, API, Artifact analyzer gateway, Storage system, Data migrations.
-Also I created and maintained CI/CD and installation tool, before infrastructure engineer was hired.
-        """
+**Key Responsibilities:**
+- Designed and implemented core subsystems, including:
+    - **Authentication System**: Enhanced security and scalability for multi-tenant environments.
+    - **Artifact Analyzer Gateway**: Streamlined data processing pipelines for threat analysis.
+    - **Storage System**: Developed a robust, scalable backend for storing threat data, optimizing queries for high-performance analytics.
+    - **API Layer**: Built RESTful and gRPC APIs to support seamless integration with other tools.
+    - **Data Migration Framework**: Enabled smooth transitions between database versions and schema updates.
 
+- Created and maintained CI/CD pipelines and installation tools, automating deployments and reducing manual setup time.
+- Acted as a cross-functional contributor until an infrastructure engineer was hired, handling deployment automation and configuration management with Ansible and Docker.
+
+**Impact:**
+- Improved system reliability and reduced deployment errors.
+- Delivered scalable solutions for processing and storing millions of threat indicators, empowering customers with actionable insights.
+
+This role demanded a strong focus on architectural design, system performance, and collaboration with security researchers to align technical solutions with customer needs.
+"""
         [[params.jobs.list]]
         position = "Senior software developer"
-        dates = "2017 - 2018"
+        dates = "2017 - 2018 (1 year)"
         company = "Tinkoff"
         product = "Investment"
         product_url = "//tinkoff.ru/invest"
@@ -247,8 +282,38 @@ Also I did CI/CD, deploy, monitoring, logging parts.
         """
 
         [[params.jobs.list]]
+        company = "Gravitational"
+        position = "Senior software developer"
+        product = "Gravity"
+        product_url = "//goteleport.com/gravity"
+        dates = "2016-2017 (1 year)"
+        stack = "Go, kubernetes, terraform, prometheus, grafana, jenkins"
+        details = """Gravitational Gravity is an open-source platform for packaging and running cloud-native applications in restricted, on-premise environments using Kubernetes.
+
+**Key Responsibilities:**
+- Developed and maintained Kubernetes-native applications packaged with the Gravity package manager, including:
+    - **[Pithos](https://github.com/gravitational/pithos-app)**: A distributed object storage service based on Cassandra.
+    - **[Stolon](https://github.com/gravitational/stolon-app)**: A cloud-native PostgreSQL manager for high-availability configurations.
+    - **[Logging App](https://github.com/gravitational/logging-app)**: A centralized logging solution for Kubernetes clusters.
+
+- Contributed to platform-wide enhancements, such as:
+    - Integrating Kubernetes APIs to optimize application deployment and resource management.
+    - Automating infrastructure provisioning with Terraform for seamless application scaling.
+    - Implementing monitoring and alerting solutions using Prometheus and Grafana to improve system observability.
+
+**Open-Source Contributions:**
+- Contributed to [Helm](https://github.com/helm/helm/pull/1766), improving templating features to support more flexible application deployments.
+
+**Impact:**
+- Delivered production-ready applications that streamlined the deployment of cloud-native solutions in secure, isolated environments.
+- Enhanced the platform's usability and reliability by optimizing deployment pipelines and monitoring capabilities.
+
+This role required working closely with cross-functional teams and contributing to the open-source community, demonstrating a strong focus on collaboration and innovation.
+"""
+
+        [[params.jobs.list]]
         position = "Software developer"
-        dates = "2014 - 2017"
+        dates = "2014 - 2016 (2 years)"
         company = "2GIS"
         product = "Infrastructure and operations"
         product_url = "//2gis.ru"
@@ -267,11 +332,11 @@ Then I was involved into building internal PaaS, I worked with Docker, CoreOS, D
 
         [[params.jobs.list]]
         position = "Software developer"
-        dates = "2013 - 2014"
+        dates = "2013 - 2014 (1.5 years)"
         company = "Parallels"
         product = "Shared hosting automation"
         product_url = "//odin.com/ru/products/premium"
-        stack = "LAMP, JS, Bash, Python"
+        stack = "PHP (Zend Framework, Symfony 2, YII), MySQL, Bash, Python, JavaScript, ExtJS"
         details = """This is 10 y.o. project with SOA architecture, old core was in C++, new in Java, cores
 communicates using CORBA.
 I worked on extension - dispatcher component: service written in PHP (Symfony 2 and Doctrine)
@@ -283,11 +348,11 @@ using bash and python.
 
         [[params.jobs.list]]
         position = "Junior software developer"
-        dates = "2011 - 2013"
+        dates = "2011 - 2013 (2 year)"
         company = "i20"
         product = ""
         product_url = "//drupaljedi.com"
-        stack = "Drupal, PHP, JS, JQuery"
+        stack = "PHP, MySQL, JavaScript, JQuery"
         details = """I was involved in building webistes as a fullstack developer.
 Released several TV-channels websites, restaurants,
 cultural & educational media website, corporate website.
@@ -297,41 +362,16 @@ cultural & educational media website, corporate website.
     [params.projects]
         enable = true
         icon = "fa-file"
-        title = "Contract/Part-time work and Startups"
+        title = "Contract/Part-time work"
         intro = ""
-
-        [[params.projects.list]]
-        title = "Gravitational"
-        url = "//goteleport.com/gravity"
-        dates = "2016-2017"
-        stack = "Go, kubernetes, terraform, prometheus, grafana, jenkins"
-        details = """Worked on several applications, which runs on
-[gravitational/gravity](https://github.com/gravitational/gravity) platform.
-Basically all apps was Go apps, which uses k8s resoures and APIs.
-* [pithos](https://github.com/gravitational/pithos-app)
-* [stolon](https://github.com/gravitational/stolon-app)
-* [logging](https://github.com/gravitational/logging-app)
-
-Also worked with open-source projects, like
-* [helm/helm](https://github.com/helm/helm/pull/1766)
-"""
-
-        [[params.projects.list]]
-        title = "Neon Inc."
-        url = "//neon.tech"
-        dates = "2021-2022"
-        stack = "Go, Python, Docker, Kubernetes, Postgres"
-        details = """Neon is a serverless open source alternative to AWS Aurora Postgres.
-I work on console, Neon control plane for DB clusters management with rich capabilities for user or admin. It have several APIs, CLIs, admin part, scheduler for clusters, metrics.
-"""
 
 [[params.projects.list]]
         title = "BRIAR"
         url = "//briar.biz"
-        dates = "2015-20xx"
-        stack = "Python, Docker, Postgres, Vue 3, Nuxt, Tailwind"
-        details = """BRIAR is a russian sewing company.
-I created everything from scratch: web-site, backoffice (custom CRM & ERP app), seller app, and many different tools for retailing.
+        dates = "2015-current"
+        stack = "Python, Django, FastAPI, Docker, Postgres, Vue 3, Nuxt, Tailwind, Yandex Cloud"
+        details = """BRIAR is a sewing factory.
+I created everything from scratch: web-site, backoffice (custom CRM & ERP app), seller app, and many different tools for retailing and in-house usage.
 """
 
     # Publications section
